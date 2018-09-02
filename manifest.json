@@ -1,0 +1,14 @@
+{
+  "name": "Mapicoin",
+  "version": "1.0",
+  "description": "Afficher les résultats de leboncoin sur une carte",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "css": ["ol.css","main.css"],
+    "js": ["md5-min.js","ol.js","jquery-3.3.1.min.js","main.js"],
+    "matches": ["https://www.leboncoin.fr/*","https://www.leboncoin.fr/*"]
+  }],
+  "icons":{
+    "300":"icon300.png"
+  }
+}
